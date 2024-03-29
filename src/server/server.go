@@ -34,8 +34,8 @@ func (server *EchoServer) registerRoutes() {
 	server.echo.GET("/liveness", server.Liveness)
 }
 
-func (s *EchoServer) Start() error {
-	if err := s.echo.Start(":8080"); err != nil && err != http.ErrServerClosed {
+func (echo *EchoServer) Start() error {
+	if err := echo.echo.Start(":8080"); err != nil && err != http.ErrServerClosed {
 		log.Fatalf("server shutdown occurred: %s", err)
 		return err
 	}
