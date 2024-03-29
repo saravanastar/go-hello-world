@@ -1,12 +1,15 @@
-**First Go Hello world program**
+This is the first Go Hello World program.
 
-Basic Go Hello World application. this application connecting to the Postgres DB (Starting postgres DB using Docker compose file present in **docker** folder)
+It's a basic Go Hello World application that connects to a Postgres database. You can start the Postgres database using the Docker Compose file present in the docker folder.
 
-- Using the Echo Library to start the Server. Check out the file server.go in src/server
-- Using gorm to create DB client. Check out the file client.go in src/database
+We're using the Echo Library to start the server. You can find the server code in the file server.go located in src/server.
 
-***To Start Application***
-Run the command from the application main directory ``` go run src/main.go ```
+Additionally, we're using GORM to create the database client. You can find the database client code in the file client.go located in src/database.
+
+To start the application, run the following command from the main directory of the application: 
+```sh
+go run src/main.go
+```
 
 
 <img width="577" alt="image" src="https://github.com/saravanastar/go-hello-world/assets/14228896/0ef1f5cb-7267-4fcd-be60-7514a2040ad0">
