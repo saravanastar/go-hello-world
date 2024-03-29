@@ -11,5 +11,8 @@ To start the application, run the following command from the main directory of t
 go run src/main.go
 ```
 
+<img width="445" alt="image" src="https://github.com/saravanastar/go-hello-world/assets/14228896/ac53db46-7fe8-4149-a900-3132797e09fc">
+
+HealthCheck
 
 <img width="577" alt="image" src="https://github.com/saravanastar/go-hello-world/assets/14228896/0ef1f5cb-7267-4fcd-be60-7514a2040ad0">
