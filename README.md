@@ -1,6 +1,6 @@
 **First Go Hello world program**
 
-In this application connecting to the Postgres DB (Starting postgres DB using Docker compose file present in /docker folder)
+Basic Go Hello World application. this application connecting to the Postgres DB (Starting postgres DB using Docker compose file present in **docker** folder)
 
 - Using the Echo Library to start the Server. Check out the file server.go in src/server
 - Using gorm to create DB client. Check out the file client.go in src/database
